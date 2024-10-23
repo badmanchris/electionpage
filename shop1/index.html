@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/customize-bootstrap1.css">
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/css/all.css">
+    <!-- link bootstrap icons -->
+    <link rel="stylesheet" href="../bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+    <!-- link icon -->
+    <link rel="shortcut icon" href="../assets/img/perfume-icon.png" type="image/x-icon">
+    <title>L'Amour - Perfumes & Scents</title>
+    <style>
+        section {
+            padding: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top top-0 bg-light">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#">
+                <img src="../assest/perfume-icon.png" width="60" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobilMenu" aria-controls="mobilMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="mobilMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Oasis Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- login modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-secondary" id="loginModalLabel">User Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- login form -->
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <label for="email" class="input-group-text"><i class="fa fa-envelope"></i></label>
+                            <input type="email" name="" id="email" class="form-control" placeholder="enter email">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="password" class="input-group-text"><i class="fa fa-lock"></i></label>
+                            <input type="password" name="" id="password" class="form-control" placeholder="enter password">
+                        </div>
+                        <div class="text-end">
+                            <button class="btn btn-secondary">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <!-- direct user to signup modal -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero section -->
+    <section id="hero">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container-xl">
+                        <div class="row justify-content-center align-items-center gap-5">
+                            <div class="col-md-5 d-non d-md-block">
+                                <img src="../assest/perf2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-12 col-md-5 text-center text-md-start">
+                                <h1 class="display-1 fst-italic">L'Amour</h1>
+                                <p class="lead">French Perfumes & Scents</p>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eaque delectus. Dolorum reiciendis cum aliquid?</p>
+                                <a href="#categories" class="btn btn-outline-secondary btn-lg">Explore Products</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-xl">
+                        <div class="row justify-content-center align-items-center gap-5">
+                            <div class="col-md-5 d-non d-md-block">
+                                <img src="../assest/perf1.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-12 col-md-5 text-center text-md-start">
+                                <h1 class="display-1 fst-italic">Scent like no other</h1>
+                                <p class="lead">Renew your image</p>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eaque delectus. Dolorum reiciendis cum aliquid?</p>
+                                <a href="#categories" class="btn btn-outline-secondary btn-lg">Explore Products</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-xl">
+                        <div class="row justify-content-center align-items-center gap-5">
+                            <div class="col-md-5 d-non d-md-block">
+                                <img src="../assest/perf3.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-12 col-md-5 text-center text-md-start">
+                                <h1 class="display-1 fst-italic">L'Amour</h1>
+                                <p class="lead">French Perfumes & Scents</p>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eaque delectus. Dolorum reiciendis cum aliquid?</p>
+                                <a href="#categories" class="btn btn-outline-secondary btn-lg">Explore Products</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </section>
+
+    <!-- categories -->
+    <section id="categories" class="bg-light">
+        <div class="container-lg">
+            <h3 class="text-center mb-4 h4">Browse Categories</h3>
+            <div class="row justify-content-center">
+                <div class="col-sm-8 col-lg-3 mb-3">
+                    <div class="card border-0">
+                        <img src="../assets/perf1.png" alt="" class="img-fluid">
+                        <div class="card-body text-center">
+                            <p class="card-title lead">D&G Collection</p>
+                            <p class="card-subtitle text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-sm btn-outline-secondary mt-2">View All</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-8 col-lg-3 mb-3">
+                    <div class="card border-0 shadow">
+                        <img src="../assets/perf3.png" alt="" class="img-fluid">
+                        <div class="card-body text-center">
+                            <p class="card-title lead">El Dor Collection</p>
+                            <p class="card-subtitle text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-sm btn-secondary mt-2">View All</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-8 col-lg-3 mb-3">
+                    <div class="card border-0">
+                        <img src="../assets/perf3.png" alt="" class="img-fluid">
+                        <div class="card-body text-center">
+                            <p class="card-title lead">Valentino Perfumes</p>
+                            <p class="card-subtitle text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-sm btn-outline-secondary mt-2">View All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonial">
+        <div class="container-lg">
+            <h3 class="text-center h4 mb-4"><i class="bi bi-stars text-primary"></i> Reviews & Testimonials</h3>
+            <div class="row justify-content-center align-items-center gap-5">
+                <div class="col-10 col-lg-5">
+                    <h2 class="display-6 mb-4">Feedback From Customers</h2>
+                    <div class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p class="d-inline-flex gap-1">
+                                <a class="d-block text-decoration-none" data-bs-toggle="collapse" href="#review1" role="button" aria-expanded="false" aria-controls="review1">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </span> Review by Angela Davids
+                                </a>
+                            </p>
+                            <div class="collapse" id="review1">
+                                <div class="card card-body">
+                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="d-inline-flex gap-1">
+                                <a class="d-block text-decoration-none" data-bs-toggle="collapse" href="#review2" role="button" aria-expanded="false" aria-controls="review2">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </span> Review by Victoria Adams
+                                </a>
+                            </p>
+                            <div class="collapse" id="review2">
+                                <div class="card card-body">
+                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="d-inline-flex gap-1">
+                                <a class="d-block text-decoration-none" data-bs-toggle="collapse" href="#review3" role="button" aria-expanded="false" aria-controls="review3">
+                                    <span>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </span> Review by Mark Simon
+                                </a>
+                            </p>
+                            <div class="collapse" id="review3">
+                                <div class="card card-body">
+                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="text-center mt-3">
+                        <button class="btn btn-secondary btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Post Review</button>
+                        <!-- *002*9061863234# -->
+                        <!-- ##002# -->
+                    </div>
+                </div>
+                <div class="col-10 col-lg-5">
+                    <img src="../assets/perfume-bg.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe page -->
+
+    <style>
+        #subscribe {
+            background: url('../assets/perfume-bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        
+        .sub-input {
+            border: 0;
+            outline: 0;
+            padding: 3px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+        }
+        
+        .sub-btn {
+            border: 0;
+            outline: 0;
+            padding: 3px 5px;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            background-color: #c41cab;
+            color: #fff;
+        }
+    </style>
+
+    <section id="subscribe">
+        <div class="container-fluid">
+            <div class="position-relative" style="height: 250px;">
+                <div class="position-absolute top-50 start-50 translate-middle rounded-pill">
+                    <input type="email" name="" id="" class="sub-input" placeholder="enter email"><button class="sub-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact page -->
+    <section id="contact" class="bg-light">
+        <div class="container-lg">
+
+            <div class="row justify-content-center align-items-center gap-3">
+                <!-- map -->
+                <div class="col-11 col-lg-7 align-self-stretch">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.020528024833!2d5.764513374745138!3d5.5639747944165245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1041ad08b48b4539%3A0xd638f7cc34c44bc7!2sAirport%20Junction%2C%20Tori%2C%20Warri%20330102%2C%20Delta%2C%20Nigeria!5e0!3m2!1sen!2snl!4v1724500039842!5m2!1sen!2snl"
+                        width="100%" height="90%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <!-- contact & enquiry form -->
+                <div class="col-10 col-lg-4">
+                    <div class="card p-4 border-0">
+                        <h5 class="mb-3 text-center text-secondary">Enquiries</h5>
+                        <form action="#">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full name</label>
+                                <input type="text" name="" id="name" placeholder="enter full name" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="" id="email" placeholder="enter email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea name="" id="message" class="form-control" placeholder="enter message. Max 200 chars" style="height: 120px;" maxlength="200"></textarea>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" class="btn btn-secondary">Send <i class="bi bi-send"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Insert Offcanvas -->
+    <div class="offcanvas offcanvas-end bg-light" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                <img src="../assets/perfume-bg.jpg" width="60px" alt=""> Customer Review
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="card p-3 border-0">
+                        <form action="#">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Customer name*</label>
+                                <input type="text" name="" id="name" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Customer email*</label>
+                                <input type="email" name="" id="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="star" class="form-label">Star rating</label>
+                                <select name="" id="star" class="form-select">
+                                    <option value="">--select star rating--</option>
+                                    <option value="1">1 star</option>
+                                    <option value="1">2 star</option>
+                                    <option value="1">3 star</option>
+                                    <option value="1">4 star</option>
+                                    <option value="1">5 star</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="review" class="form-label">Write review</label>
+                                <textarea name="" id="review" class="form-control" placeholder="100 characters"></textarea>
+                            </div>
+                            <div class="text-end">
+                                <button class="btn btn-secondary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer">
+            <p class="text-center text-muted">L'Amour Perfumes &copy; 2024</p>
+        </div>
+    </div>
+    <footer class="bg-black p-3 text-center">
+        <p class="text-secondary">Oasis Perfumes &copy; 2024</p>
+    </footer>
+
+    <!-- include javascript file -->
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

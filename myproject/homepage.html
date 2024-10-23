@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/customize-bootstrap.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/css/all.css">
+    <link rel="stylesheet" href="../bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+    <title>INEC</title>
+</head>
+<body>
+     <!-- navbar -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top top-0 bg-primary">
+        <div class="container-xxl ">
+            <a class="navbar-brand" href="#">
+             <!-- <img src="../myproject/111.png" width="200" alt=""> -->
+                <p class="text-light ">STUDENT UNION GOVERNMENT ELECTION(SUGE)</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobilMenu" aria-controls="mobilMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+            <div class="collapse navbar-collapse" id="mobilMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SUGE</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item "  href="#">Logout</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Create An Account</a></li>
+                           
+                           
+                        </ul>
+                    </li>
+
+                </ul>
+               
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-secondary" id="loginModalLabel">User Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- login form -->
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <label for="email" class="input-group-text"><i class="fa fa-envelope"></i></label>
+                            <input type="email" name="" id="email" class="form-control" placeholder="enter email">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="password" class="input-group-text"><i class="fa fa-lock"></i></label>
+                            <input type="password" name="" id="password" class="form-control" placeholder="enter password">
+                        </div>
+                        
+                        <div>
+                            <p class="text-center"><a href="#">Forgetten Password?</a></p>
+                        </div>
+                        
+                        <div class="text-end">
+                            <button class="btn btn-secondary">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <!-- direct user to signup modal -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-md border bg-light my-4  rounded fst-italic display-8 p-4 ">
+        <h3>Student union government is comprised of 10 elected representatives and is chiefly responsible for exercising the legislative powers and duties of shared governance as stipulated by the School Governing Council. Student Council Representatives serve their constituents through student advocacy and by reviewing and recommending changes to campus policy pertaining to student life, services, and interests. Students vote for Student union government representatives based on their college/school status. For example, students in the College of Engineering vote for students within that college.</h3>
+    </div>
+
+    <h3>list as Nav bar</h3>
+            <ul class="list-unstyled bg-black text-white p-2 nav me-auto rounded">
+                <li><a href="#" class="nav-link ">about</a></li>
+                <li><a href="#" class="nav-link ">contact</a></li>
+                <li><a href="#" class="nav-link ">blog</a></li>
+            </ul>
+
+    <div class="container border text-center my-2">
+
+                <!-- <h1 class="text-center text-decoration-underline">PRESIDENTIAL CANIDATE OF 2024 ELECTION</h1>
+    <div class="container-lg">
+        <div class="row justify-content-cen+ter">
+            <div class="row row-cols-3 col-sm-8 col-lg-3 g-4  ">
+                <div class="card mr-3" width18rem;border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card border-6  shadow-lg">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body   text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card  border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+              </div>
+            </div>
+          </div>
+     </div> -->
+
+    <h1 class="text-center text-decoration-underline">PRESIDENTIAL CANIDATE OF 2024 ELECTION</h1>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="row row-cols-3  g-4  ">
+                <div class="card mr-2" width18rem;">
+                    <div class=" text">
+                        <!-- <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p> -->
+                        <!-- <img src="../assest/seun - Copy.jpeg " width="300px" alt=""> -->
+                        <img src="../assest/sug6.jpeg" width=""  class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                         <p class="text-center">Seun Kuti</p>
+                         <p class="text-center">Faculty of Arts.</p>
+                          
+                        <!-- <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a> -->
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <!-- <p class="text-muted">BADMANCHRIS &copy;2024</p> -->
+                        <div class="form-check">
+                            <input type="radio" name="order" id="vote" class="form-check-input">
+                            <label for="vote" class="form-check-label">vote</label>
+                          </div>
+                          
+                    </div>
+                </div>
+                <div class="card border-6  shadow-lg">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body   text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card  border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <h1 class="text-center text-decoration-underline">VICE-PRESIDENTIAL CANIDATE OF 2024 ELECTION</h1>
+    <div class="container-lg">
+        <div class="row justify-content-cen+ter">
+            <div class="row row-cols-3  g-4  ">
+                <div class="card mr-2" width18rem;border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card border-6  shadow-lg">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body   text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card  border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="text-center text-decoration-underline">SECRETARY GENERAL CANIDATE OF 2024 ELECTION</h1>
+    <div class="container-lg">
+        <div class="row justify-content-cen+ter">
+            <div class="row row-cols-3  g-4  ">
+                <div class="card mr-2" width18rem;border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card border-6  shadow-lg">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body   text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card  border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <h1 class="text-center text-decoration-underline">ASISSTANT SECRETARY GENERAL CANIDATE OF 2024 ELECTION</h1>
+    <div class="container-lg">
+        <div class="row justify-content-cen+ter">
+            <div class="row row-cols-3  g-4  ">
+                <div class="card mr-2" width18rem;border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card border-6  shadow-lg">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body   text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card  border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <h1 class="text-center text-decoration-underline">TREASURER CANIDATE OF 2024 ELECTION</h1>
+    <div class="container-lg">
+        <div class="row justify-content-cen+ter">
+            <div class="row row-cols-3  g-4  ">
+                <div class="card mr-2" width18rem;border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card border-6  shadow-lg">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body   text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card  border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <h1 class="text-center text-decoration-underline">FINANCIAL SECRETARY CANIDATE OF 2024 ELECTION</h1>
+    <div class="container-lg">
+        <div class="row justify-content-cen+ter">
+            <div class="row row-cols-3  g-4  ">
+                <div class="card mr-2" width18rem;border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card border-6  shadow-lg">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body   text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card  border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <h1 class="text-center text-decoration-underline">PRESIDENTIAL CANIDATE OF 2024 ELECTION</h1>
+    <div class="container-lg">
+        <div class="row justify-content-cen+ter">
+            <div class="row row-cols-3  g-4  ">
+                <div class="card mr-2" width18rem;border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card border-6  shadow-lg">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body   text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card  border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="text-center text-decoration-underline">PRESIDENTIAL CANIDATE OF 2024 ELECTION</h1>
+    <div class="container-lg">
+        <div class="row justify-content-cen+ter">
+            <div class="row row-cols-3  g-4  ">
+                <div class="card mr-2" width18rem;border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card border-6  shadow-lg">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body   text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card  border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="text-center text-decoration-underline">PRESIDENTIAL CANIDATE OF 2024 ELECTION</h1>
+    <div class="container-lg">
+        <div class="row justify-content-cen+ter">
+            <div class="row row-cols-3  g-4  ">
+                <div class="card mr-2" width18rem;border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card border-6  shadow-lg">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body   text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card  border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="text-center text-decoration-underline">PRESIDENTIAL CANIDATE OF 2024 ELECTION</h1>
+    <div class="container-lg">
+        <div class="row justify-content-cen+ter">
+            <div class="row row-cols-3  g-4  ">
+                <div class="card mr-2" width18rem;border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card border-6  shadow-lg">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body   text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+                <div class="card  border-2">
+                    <div class="card-header text-center">
+                        <h3 class="card-title">Introducing Masterclass 4.0 </h3>
+                        <p class="lead card-subtitle">Upgrade your frontend skills</p>
+                    </div>
+                    <div class="card-body text-center">
+                        <h1 class="display-3 text-primary my-2">4.0</h1>
+                        <p class="lead text-center">using bootstrap 5.0</p>
+                        <p class="my-3 text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa enim corporis odio iste itaque labore error quis impedit architecto beatae. Ullam libero quia facere commodi! Officia repellendus suscipit laudantium fuga!</p>
+                        <a href="" class="btn btn-outline-primary mt-4">signup</a>
+
+                    </div>
+                    <div class="card-footer text-center">
+                        <p class="text-muted">BADMANCHRIS &copy;2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+
+
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+
+   
+
+</body>
+</html>

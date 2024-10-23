@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/all.css">
+    <title>bootstrap forms</title>
+</head>
+<body>
+   <header class="bg-black text-center p-3 text-white">
+     <p class="display-2">bootstrap forms</p>
+   </header>
+   <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-5 border  p-3 my-5">
+        <h4 class="text-primary text-center mb-4 ">simple login form</h4>
+        <form action="#">
+          <div class="input-group mb-4">
+            <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+            <input type="text" name="" id="" class="form-control" placeholder="enter email">
+          </div>
+          <div class="input-group mb-4">
+            <span class="input-group-text"><i class="fa fa-lock"></i></span>
+            <input type="password" name="" id="" class="form-control" placeholder="enter password">
+          </div>
+           <div class="text-end">
+            <button class="btn btn-outline-primary btn-lg">login</button>
+           </div>
+        </form>
+        <hr>
+        
+        <h4 class="text-success text-center mb-4">Simple  form-floating</h4>
+
+        <form action="">
+          <div class="form-floating mb-3">
+            <input type="text" name="" id="" class="form-control" placeholder="enter Firstname">
+            <label for="">Firstname</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" name="" id="" class="form-control" placeholder="enter lastname">
+            <label for="">lastname</label>
+          </div>
+          <div class="form-floating mb-3" >
+            <select name="" id="" class="form-select">
+              <option value="">--select city--</option>
+              <option value="">NIGERIA</option>
+              <option value="">USA</option>
+              <option value="">CANADA</option>
+            </select>
+            <label for="">city</label>
+          </div>
+          <div class="text-end">
+            <button class="btn btn-outline-primary btn-lg">signup</button>
+           </div>
+
+
+        </form>
+        <hr>
+        <hr>
+        
+        <h4 class="text-info text-center mb-4">Normal form</h4>
+        <form action="#">
+          <div class="form-group mb-3">
+            <label for="" class="form-label">Numnber of Rooms</label>
+            <input type="number" name="" id="" class="form-control">
+          </div>
+          <div class="form-group mb-3">
+            <label for="" class="form-label">Current Location </label>
+            <input type="number" name="" id="" class="form-control">
+          </div>
+          <div class="text-end">
+            <button class="btn btn-outline-primary btn-lg">Book Room</button>
+           </div>
+
+        </form>
+        
+
+        
+
+      </div>
+    </div>
+   </div>
+    
+</body>
+</html>
